@@ -17,7 +17,7 @@ int main(void) {
     
     srand((unsigned)time(NULL));
     
-    l = 6 + rand() % 5;
+    l = 6 + rand() % 30;
     for ( i = 0; i < l; i++ ) {
         pass[i] = table[rand()%62];
     }
